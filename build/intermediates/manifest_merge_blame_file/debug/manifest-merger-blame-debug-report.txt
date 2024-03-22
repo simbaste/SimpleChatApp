@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.connectsdk.sampler"
+4    android:versionCode="12"
+5    android:versionName="1.6.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:4:5-66
+11-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:5:5-78
+12-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:6:5-75
+13-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:6:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+14-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:7:5-85
+14-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:7:22-83
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:8:5-81
+15-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.GET_TASKS" />
+16-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:9:5-68
+16-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:9:22-65
+17
+18    <!-- Permissions for LG Cast Screen Mirroring -->
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-71
+19-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-68
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Permissions for LG Cast Remote Camera -->
+20-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-77
+20-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-74
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-65
+21-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:22-62
+22
+23    <permission
+23-->[androidx.core:core:1.12.0] /Users/stephane.mba/.gradle/caches/transforms-3/4e1d706a5c43ae55f77e2bb80283cebb/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+24        android:name="com.connectsdk.sampler.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.12.0] /Users/stephane.mba/.gradle/caches/transforms-3/4e1d706a5c43ae55f77e2bb80283cebb/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.12.0] /Users/stephane.mba/.gradle/caches/transforms-3/4e1d706a5c43ae55f77e2bb80283cebb/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.connectsdk.sampler.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.12.0] /Users/stephane.mba/.gradle/caches/transforms-3/4e1d706a5c43ae55f77e2bb80283cebb/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.12.0] /Users/stephane.mba/.gradle/caches/transforms-3/4e1d706a5c43ae55f77e2bb80283cebb/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:11:5-34:19
+30        android:name="com.connectsdk.sampler.MainApplication"
+30-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:12:9-62
+31        android:allowBackup="true"
+31-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:13:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.12.0] /Users/stephane.mba/.gradle/caches/transforms-3/4e1d706a5c43ae55f77e2bb80283cebb/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@drawable/ic_launcher"
+35-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:14:9-45
+36        android:label="@string/app_name"
+36-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:15:9-41
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme"
+38-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:16:9-40
+39        android:usesCleartextTraffic="true" >
+39-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:17:9-44
+40        <uses-library
+40-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:19:9-21:40
+41            android:name="org.apache.http.legacy"
+41-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:20:13-50
+42            android:required="false" />
+42-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:21:13-37
+43
+44        <activity
+44-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:23:9-33:20
+45            android:name="com.connectsdk.sampler.MainActivity"
+45-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:24:13-63
+46            android:exported="true"
+46-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:27:13-36
+47            android:screenOrientation="fullSensor"
+47-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:26:13-51
+48            android:windowSoftInputMode="stateHidden" >
+48-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:25:13-54
+49            <intent-filter>
+49-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:28:13-32:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:29:17-69
+50-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:29:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:31:17-77
+52-->/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/AndroidManifest.xml:31:27-74
+53            </intent-filter>
+54        </activity>
+55        <!-- LG CAST Screen Mirroring Service -->
+56        <service
+56-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-35:19
+57            android:name="com.connectsdk.service.webos.lgcast.screenmirroring.service.MirroringService"
+57-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-104
+58            android:exported="false"
+58-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-37
+59            android:foregroundServiceType="mediaProjection" >
+59-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-60
+60            <intent-filter>
+60-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-34:29
+61                <action android:name="android.intent.action.SCREEN_ON" />
+61-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-74
+61-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-71
+62                <action android:name="android.intent.action.SCREEN_OFF" />
+62-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-75
+62-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-72
+63                <action android:name="android.media.VOLUME_CHANGED_ACTION" />
+63-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-78
+63-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-75
+64                <action android:name="android.intent.action.CONFIGURATION_CHANGED" />
+64-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-86
+64-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-83
+65            </intent-filter>
+66        </service> <!-- LG CAST Remote Camera Service -->
+67        <service
+67-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-46:19
+68            android:name="com.connectsdk.service.webos.lgcast.remotecamera.service.CameraService"
+68-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-98
+69            android:exported="false" >
+69-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-37
+70            <intent-filter>
+70-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-45:29
+71                <action android:name="android.intent.action.SCREEN_ON" />
+71-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-74
+71-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-71
+72                <action android:name="android.intent.action.SCREEN_OFF" />
+72-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-75
+72-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-72
+73                <action android:name="android.intent.action.CONFIGURATION_CHANGED" />
+73-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-86
+73-->[:Connect-SDK-Android] /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-83
+74            </intent-filter>
+75        </service>
+76
+77        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+77-->[com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/fde5979b05af26550af2bfc402a21cc7/transformed/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:6:9-100
+77-->[com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/fde5979b05af26550af2bfc402a21cc7/transformed/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:6:19-97
+78
+79        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+79-->[com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/fde5979b05af26550af2bfc402a21cc7/transformed/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:7:9-104
+79-->[com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/fde5979b05af26550af2bfc402a21cc7/transformed/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:7:18-101
+80        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+80-->[com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/fde5979b05af26550af2bfc402a21cc7/transformed/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:8:9-92
+80-->[com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/fde5979b05af26550af2bfc402a21cc7/transformed/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:8:18-90
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/caf09e67d481615f9f3eae6021526a12/transformed/jetified-play-services-base-9.4.0/AndroidManifest.xml:20:9-22:45
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/caf09e67d481615f9f3eae6021526a12/transformed/jetified-play-services-base-9.4.0/AndroidManifest.xml:20:19-85
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/caf09e67d481615f9f3eae6021526a12/transformed/jetified-play-services-base-9.4.0/AndroidManifest.xml:22:19-43
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/caf09e67d481615f9f3eae6021526a12/transformed/jetified-play-services-base-9.4.0/AndroidManifest.xml:21:19-78
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/98af2526e0733aef066cddb762baf132/transformed/jetified-play-services-basement-9.4.0/AndroidManifest.xml:21:9-23:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/98af2526e0733aef066cddb762baf132/transformed/jetified-play-services-basement-9.4.0/AndroidManifest.xml:22:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:9.4.0] /Users/stephane.mba/.gradle/caches/transforms-3/98af2526e0733aef066cddb762baf132/transformed/jetified-play-services-basement-9.4.0/AndroidManifest.xml:23:13-66
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.2.0] /Users/stephane.mba/.gradle/caches/transforms-3/36cbf0bb8bc895f7cc0e8788cd985d6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.2.0] /Users/stephane.mba/.gradle/caches/transforms-3/36cbf0bb8bc895f7cc0e8788cd985d6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+93            android:authorities="com.connectsdk.sampler.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.2.0] /Users/stephane.mba/.gradle/caches/transforms-3/36cbf0bb8bc895f7cc0e8788cd985d6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.2.0] /Users/stephane.mba/.gradle/caches/transforms-3/36cbf0bb8bc895f7cc0e8788cd985d6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.2.0] /Users/stephane.mba/.gradle/caches/transforms-3/36cbf0bb8bc895f7cc0e8788cd985d6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.2.0] /Users/stephane.mba/.gradle/caches/transforms-3/36cbf0bb8bc895f7cc0e8788cd985d6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.2.0] /Users/stephane.mba/.gradle/caches/transforms-3/36cbf0bb8bc895f7cc0e8788cd985d6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/stephane.mba/.gradle/caches/transforms-3/8325822cbcaec5c6e191660d99caa49b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/stephane.mba/.gradle/caches/transforms-3/8325822cbcaec5c6e191660d99caa49b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/stephane.mba/.gradle/caches/transforms-3/8325822cbcaec5c6e191660d99caa49b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+101        </provider>
+102    </application>
+103
+104</manifest>

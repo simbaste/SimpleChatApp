@@ -1,0 +1,5 @@
+include ':Connect-SDK-Android'
+project(":Connect-SDK-Android").projectDir = file("../Connect-SDK-Android")
+
+//include ':Connect-SDK-Android-Core'
+//project(":Connect-SDK-Android-Core").projectDir = file("../Connect-SDK-Android-Core")

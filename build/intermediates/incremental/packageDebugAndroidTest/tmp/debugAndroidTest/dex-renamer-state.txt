@@ -1,0 +1,4 @@
+#Wed Mar 20 17:10:27 CET 2024
+base.0=/Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex
