@@ -11,13 +11,10 @@ Chat App is a simple Android application built using Kotlin and Jetpack Compose.
 ## Screenshots
 
 ![Screenshot_20240324-212549](https://github.com/simbaste/SimpleChatApp/assets/11315462/e7afdf0c-554b-48fe-8887-10816cdd711a)
-*Caption for Screenshot 1*
 
 ![Screenshot_20240324-212610](https://github.com/simbaste/SimpleChatApp/assets/11315462/c21b2c80-2cf8-4a27-a92a-d789eb7c394d)
-*Caption for Screenshot 2*
 
 ![Screenshot_20240324-212630](https://github.com/simbaste/SimpleChatApp/assets/11315462/36e750fc-633b-4285-90e3-6ee3d426aef5)
-*Caption for Screenshot 3*
 
 ## Getting Started
 
