@@ -1,4 +1,0 @@
-com.connectsdk.sampler.test-androidTest-0 /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/build/generated/res/resValues/androidTest/debug
-com.connectsdk.sampler.test-mergeDebugAndroidTestResources-1 /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.connectsdk.sampler.test-mergeDebugAndroidTestResources-2 /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.connectsdk.sampler.test-merged_res-3 /Users/stephane.mba/AndroidStudioProjects/Connect-SDK-Android-API-Sampler/build/intermediates/merged_res/debugAndroidTest
